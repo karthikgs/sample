@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93C9381152C52ED003B7428 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C9380152C52ED003B7428 /* UIKit.framework */; };
+		A93C9383152C52ED003B7428 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C9382152C52ED003B7428 /* Foundation.framework */; };
+		A93C9385152C52ED003B7428 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A93C9384152C52ED003B7428 /* CoreGraphics.framework */; };
+		A93C938B152C52ED003B7428 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A93C9389152C52ED003B7428 /* InfoPlist.strings */; };
+		A93C938D152C52ED003B7428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C938C152C52ED003B7428 /* main.m */; };
+		A93C9391152C52ED003B7428 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C9390152C52ED003B7428 /* AppDelegate.m */; };
+		A93C9394152C52ED003B7428 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93C9392152C52ED003B7428 /* MainStoryboard.storyboard */; };
+		A93C9397152C52ED003B7428 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A93C9396152C52ED003B7428 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A93C937C152C52ED003B7428 /* bioquest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bioquest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93C9380152C52ED003B7428 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A93C9382152C52ED003B7428 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A93C9384152C52ED003B7428 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A93C9388152C52ED003B7428 /* bioquest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bioquest-Info.plist"; sourceTree = "<group>"; };
+		A93C938A152C52ED003B7428 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A93C938C152C52ED003B7428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A93C938E152C52ED003B7428 /* bioquest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bioquest-Prefix.pch"; sourceTree = "<group>"; };
+		A93C938F152C52ED003B7428 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A93C9390152C52ED003B7428 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A93C9393152C52ED003B7428 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A93C9395152C52ED003B7428 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A93C9396152C52ED003B7428 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A93C9379152C52ED003B7428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C9381152C52ED003B7428 /* UIKit.framework in Frameworks */,
+				A93C9383152C52ED003B7428 /* Foundation.framework in Frameworks */,
+				A93C9385152C52ED003B7428 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A93C9371152C52ED003B7428 = {
+			isa = PBXGroup;
+			children = (
+				A93C9386152C52ED003B7428 /* bioquest */,
+				A93C937F152C52ED003B7428 /* Frameworks */,
+				A93C937D152C52ED003B7428 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A93C937D152C52ED003B7428 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A93C937C152C52ED003B7428 /* bioquest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A93C937F152C52ED003B7428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A93C9380152C52ED003B7428 /* UIKit.framework */,
+				A93C9382152C52ED003B7428 /* Foundation.framework */,
+				A93C9384152C52ED003B7428 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A93C9386152C52ED003B7428 /* bioquest */ = {
+			isa = PBXGroup;
+			children = (
+				A93C938F152C52ED003B7428 /* AppDelegate.h */,
+				A93C9390152C52ED003B7428 /* AppDelegate.m */,
+				A93C9392152C52ED003B7428 /* MainStoryboard.storyboard */,
+				A93C9395152C52ED003B7428 /* ViewController.h */,
+				A93C9396152C52ED003B7428 /* ViewController.m */,
+				A93C9387152C52ED003B7428 /* Supporting Files */,
+			);
+			path = bioquest;
+			sourceTree = "<group>";
+		};
+		A93C9387152C52ED003B7428 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A93C9388152C52ED003B7428 /* bioquest-Info.plist */,
+				A93C9389152C52ED003B7428 /* InfoPlist.strings */,
+				A93C938C152C52ED003B7428 /* main.m */,
+				A93C938E152C52ED003B7428 /* bioquest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A93C937B152C52ED003B7428 /* bioquest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A93C939A152C52ED003B7428 /* Build configuration list for PBXNativeTarget "bioquest" */;
+			buildPhases = (
+				A93C9378152C52ED003B7428 /* Sources */,
+				A93C9379152C52ED003B7428 /* Frameworks */,
+				A93C937A152C52ED003B7428 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bioquest;
+			productName = bioquest;
+			productReference = A93C937C152C52ED003B7428 /* bioquest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A93C9373152C52ED003B7428 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A93C9376152C52ED003B7428 /* Build configuration list for PBXProject "bioquest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A93C9371152C52ED003B7428;
+			productRefGroup = A93C937D152C52ED003B7428 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A93C937B152C52ED003B7428 /* bioquest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A93C937A152C52ED003B7428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C938B152C52ED003B7428 /* InfoPlist.strings in Resources */,
+				A93C9394152C52ED003B7428 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A93C9378152C52ED003B7428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93C938D152C52ED003B7428 /* main.m in Sources */,
+				A93C9391152C52ED003B7428 /* AppDelegate.m in Sources */,
+				A93C9397152C52ED003B7428 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A93C9389152C52ED003B7428 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93C938A152C52ED003B7428 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A93C9392152C52ED003B7428 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A93C9393152C52ED003B7428 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A93C9398152C52ED003B7428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A93C9399152C52ED003B7428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A93C939B152C52ED003B7428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bioquest/bioquest-Prefix.pch";
+				INFOPLIST_FILE = "bioquest/bioquest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A93C939C152C52ED003B7428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bioquest/bioquest-Prefix.pch";
+				INFOPLIST_FILE = "bioquest/bioquest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A93C9376152C52ED003B7428 /* Build configuration list for PBXProject "bioquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C9398152C52ED003B7428 /* Debug */,
+				A93C9399152C52ED003B7428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A93C939A152C52ED003B7428 /* Build configuration list for PBXNativeTarget "bioquest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A93C939B152C52ED003B7428 /* Debug */,
+				A93C939C152C52ED003B7428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A93C9373152C52ED003B7428 /* Project object */;
+}
